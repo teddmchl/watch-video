@@ -5,6 +5,7 @@ from __future__ import annotations
 import colorsys
 import re
 import sys
+import time
 from difflib import SequenceMatcher
 from pathlib import Path
 
@@ -14,6 +15,7 @@ from media import MediaError
 
 SHEET_COLS, SHEET_TILE = 4, 384
 STROBE_WIDTH = 960
+OCR_CONF_FAST = 0.5
 OCR_CONF = 0.6          # Vision reports 0.5 for guesses (half-hidden watermarks, stylised logos)
 PERSISTENT_SHARE = 0.7  # text on screen in this share of samples counts as "always on"
 MAX_COLOUR_PROBES = 60
@@ -80,12 +82,21 @@ def ocr_lines(paths: list[Path]) -> list[list[str]]:
     """OCR is a bonus sense: if Vision fails, carry on without it rather than lose the scan."""
     if not paths:
         return []
-    try:
-        res = media.vsense_json("ocr", *map(str, paths)) or []
-    except MediaError as exc:
-        print(f"warning: OCR unavailable: {exc}", file=sys.stderr)
-        return [[] for _ in paths]
-    return [[ln["text"] for ln in r["lines"] if ln.get("conf", 1) >= OCR_CONF] for r in res]
+    res: list = []
+    for attempt in range(3):
+        try:
+            res = media.vsense_json("ocr", *map(str, paths)) or []
+        except MediaError as exc:
+            print(f"warning: OCR unavailable: {exc}", file=sys.stderr)
+            return [[] for _ in paths]
+        # Apple's text reader sometimes returns nothing at all while its model is still loading
+        # (seen right after the helper is first built). Empty for every image: wait and ask again.
+        if any(r["lines"] for r in res) or len(paths) < 3:
+            break
+        time.sleep(1.5)
+    # the fast model (used when the accurate one won't load) scores everything 0.3, 0.5 or 1.0
+    return [[ln["text"] for ln in r["lines"]
+             if ln.get("conf", 1) >= (OCR_CONF_FAST if r.get("level") == "fast" else OCR_CONF)] for r in res]
 
 
 def norm_text(s: str) -> str:

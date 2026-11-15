@@ -6,6 +6,7 @@ Every function raises MediaError with a readable message instead of failing sile
 from __future__ import annotations
 
 import json
+import os
 import re
 import shutil
 import subprocess
@@ -14,10 +15,22 @@ from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
 SKILL_DIR = Path(__file__).resolve().parent.parent
-VSENSE = SKILL_DIR / "bin" / "vsense"
+
+
+def _home() -> Path:
+    """Where models, the compiled helper and the optional Python env live. A copy installed with
+    install.sh keeps them inside the skill folder; a plugin install keeps them in ~/.watch-video,
+    so plugin updates don't throw away downloaded models."""
+    if os.environ.get("WATCH_VIDEO_HOME"):
+        return Path(os.environ["WATCH_VIDEO_HOME"]).expanduser()
+    return SKILL_DIR if (SKILL_DIR / "models").is_dir() else Path.home() / ".watch-video"
+
+
+HOME = _home()
+VSENSE = HOME / "bin" / "vsense"
 VSENSE_DIR = SKILL_DIR / "scripts" / "vsense"
 WHISPER_DTW = "small"   # alignment-head preset; must match the model below
-WHISPER_MODEL = SKILL_DIR / "models" / "ggml-small.bin"
+WHISPER_MODEL = HOME / "models" / "ggml-small.bin"
 
 
 class MediaError(RuntimeError):
@@ -43,7 +56,7 @@ def ensure_vsense() -> Path:
     sources = sorted(VSENSE_DIR.glob("*.swift"))
     newest = max(s.stat().st_mtime for s in sources)
     if not VSENSE.exists() or VSENSE.stat().st_mtime < newest:
-        VSENSE.parent.mkdir(exist_ok=True)
+        VSENSE.parent.mkdir(parents=True, exist_ok=True)
         run(["swiftc", "-O", "-swift-version", "5", *map(str, sources), "-o", str(VSENSE)], timeout=600)
     return VSENSE
 
@@ -179,7 +192,7 @@ def _words(tokens: list[dict]) -> list[dict]:
 def _whisper(model: Path, dtw: str, wav: Path, out_base: Path, language: str, prompt: str | None = None) -> dict:
     """One whisper pass: timed segments, each with a confidence and DTW-timed words."""
     if not model.exists():
-        raise MediaError(f"whisper model missing: {model}")
+        raise MediaError(f"speech model missing: {model}. Run: python3 {SKILL_DIR}/scripts/watch.py setup")
     if not shutil.which("whisper-cli"):
         raise MediaError("whisper-cli is not installed (brew install whisper-cpp)")
     out_json = out_base.with_suffix(".json")

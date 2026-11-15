@@ -24,15 +24,28 @@ Claude: (scans it in ~10 s, reads a 600-token brief, opens one image, answers wi
 - **Kenyan speech.** Sheng, Swahili and English mixed, using two models and a Sheng word list.
 - **Stays cheap.** A 40-second clip costs about 600 tokens; a 5-minute interview about 2,300.
 
-## Install (macOS, Apple silicon or Intel)
+## Install (macOS)
+
+Needs [Homebrew](https://brew.sh), Xcode command line tools (`xcode-select --install`) and
+[Claude Code](https://claude.com/claude-code). First: `brew install ffmpeg whisper-cpp yt-dlp`.
+
+**As a plugin**, inside Claude Code:
+
+```
+/plugin marketplace add teddmchl/watch-video
+/plugin install watch-video@watch-video
+```
+
+The first time you ask it to watch something, Claude asks before a one-time 488 MB speech model download.
+
+**Or by hand:**
 
 ```bash
 git clone https://github.com/teddmchl/watch-video && cd watch-video && ./install.sh
 ```
 
-Needs [Homebrew](https://brew.sh), Xcode command line tools and [Claude Code](https://claude.com/claude-code).
-The base install downloads one 488 MB speech model. Options: `--speakers` (tell real voices apart,
-~250 MB), `--sheng` (Kenyan speech, ~840 MB), `--all`.
+Options for either route: `--speakers` (tell real voices apart, ~250 MB), `--sheng` (Kenyan speech,
+~840 MB), `--all`. With the plugin, ask Claude to "run watch-video setup with sheng".
 
 Then ask Claude Code to watch any video file or link. Or run it yourself:
 

@@ -7,15 +7,15 @@ Thanks for helping Claude watch videos. Small, tested changes are the easiest to
 - **A test clip with known answers.** Add a script under `tests/` that builds a clip with planted events
   (like `make_test.sh`) and its expectations in `run_tests.py`. Synthetic clips only: no copyrighted or
   private footage in the repo.
-- **A Sheng word that's missing** from `skill/data/sheng/lexicon.json`.
+- **A Sheng word that's missing** from `skills/watch-video/data/sheng/lexicon.json`.
 - **A wrong answer.** Open an issue with what the skill said, what actually happens, the timestamp, and
   a way to get the clip. These are the most useful reports.
 
 ## Bigger pieces
 
-- **Linux and Windows.** `skill/scripts/vsense/` (Swift, Apple frameworks) does OCR, sound classes, faces,
+- **Linux and Windows.** `skills/watch-video/scripts/vsense/` (Swift, Apple frameworks) does OCR, sound classes, faces,
   pose and image rendering. A portable backend needs the same subcommands and JSON shapes.
-- **More languages**, following the Sheng mode pattern in `skill/scripts/sheng.py`.
+- **More languages**, following the Sheng mode pattern in `skills/watch-video/scripts/sheng.py`.
 - **Live mode** that keeps up with real time.
 - **Lower cost**: anything that keeps answers right with fewer tokens.
 

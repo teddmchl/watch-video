@@ -47,8 +47,8 @@ def people_fps(duration: float) -> int:
 
 
 SKILL_DIR = Path(__file__).resolve().parent.parent
-EMBED_PY = SKILL_DIR / ".venv" / "bin" / "python"
-EMBED_MODEL = SKILL_DIR / "models" / "wespeaker_en_voxceleb_resnet34_LM.onnx"
+EMBED_PY = media.HOME / ".venv" / "bin" / "python"
+EMBED_MODEL = media.HOME / "models" / "wespeaker_en_voxceleb_resnet34_LM.onnx"
 
 
 def embeddings_available() -> bool:

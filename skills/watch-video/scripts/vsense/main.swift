@@ -467,19 +467,43 @@ func topLeftBox(_ r: CGRect) -> [Double] {
     [round3(r.minX), round3(1 - r.maxY), round3(r.width), round3(r.height)]
 }
 
+/// Read text with Apple's accurate model; if the system can't load it (its model cache fails with
+/// e5rt errors on some Macs, sometimes for minutes), read with the fast model instead of giving up.
+func recognise(_ img: CGImage, accurate: Bool) throws -> [VNRecognizedTextObservation] {
+    let req = VNRecognizeTextRequest()
+    req.recognitionLevel = accurate ? .accurate : .fast
+    req.usesLanguageCorrection = true
+    if accurate { req.automaticallyDetectsLanguage = true }
+    try VNImageRequestHandler(cgImage: img).perform([req])
+    return req.results ?? []
+}
+
 func ocr(_ paths: [String]) throws {
     var results: [[String: Any]] = []
+    // once the accurate model has proved slow or broken, later calls skip it for half an hour
+    let marker = NSTemporaryDirectory() + "vsense_ocr_fast"
+    let recent = ((try? FileManager.default.attributesOfItem(atPath: marker)[.modificationDate]) as? Date)
+        .map { Date().timeIntervalSince($0) < 1800 } ?? false
+    var accurate = ProcessInfo.processInfo.environment["VSENSE_OCR"] != "fast" && !recent
+    defer { if !accurate && !recent { FileManager.default.createFile(atPath: marker, contents: Data()) } }
     for p in paths {
-        let req = VNRecognizeTextRequest()
-        req.recognitionLevel = .accurate
-        req.usesLanguageCorrection = true
-        req.automaticallyDetectsLanguage = true
-        try VNImageRequestHandler(cgImage: try loadImage(p)).perform([req])
-        let lines: [[String: Any]] = (req.results ?? []).compactMap { obs in
-            guard let top = obs.topCandidates(1).first, top.confidence >= 0.3 else { return nil }
-            return ["text": top.string, "conf": round3(Double(top.confidence)), "box": topLeftBox(obs.boundingBox)]
+        let img = try loadImage(p)
+        var obs: [VNRecognizedTextObservation] = []
+        var level = accurate ? "accurate" : "fast"
+        do {
+            let t = Date()
+            obs = try recognise(img, accurate: accurate)
+            if accurate, Date().timeIntervalSince(t) > 15 { accurate = false }   // loading took too long: stay fast
+        } catch {
+            accurate = false
+            level = "fast"
+            obs = (try? recognise(img, accurate: false)) ?? []
         }
-        results.append(["file": p, "lines": lines])
+        let lines: [[String: Any]] = obs.compactMap { o in
+            guard let top = o.topCandidates(1).first, top.confidence >= 0.3 else { return nil }
+            return ["text": top.string, "conf": round3(Double(top.confidence)), "box": topLeftBox(o.boundingBox)]
+        }
+        results.append(["file": p, "lines": lines, "level": level])
     }
     try printJSON(results)
 }

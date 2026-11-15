@@ -1,0 +1,10 @@
+{
+  "name": "watch-video",
+  "version": "0.2.0",
+  "description": "Let Claude watch videos like a person: every frame scanned for motion and cuts, speech with speakers, on-screen text, people and gestures, live screen and camera. About the token cost of a PDF page. Runs on your Mac; nothing is uploaded.",
+  "author": { "name": "Tedd Onyesero", "url": "https://github.com/teddmchl" },
+  "homepage": "https://github.com/teddmchl/watch-video",
+  "repository": "https://github.com/teddmchl/watch-video",
+  "license": "MIT",
+  "keywords": ["video", "video-understanding", "transcription", "whisper", "macos", "sheng", "swahili"]
+}

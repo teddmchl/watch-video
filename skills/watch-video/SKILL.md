@@ -9,8 +9,13 @@ You can't take video in directly. `scan` watches for you: every frame for motion
 50 ms of audio, speech with speakers, text on screen, people. Everything runs on this Mac.
 
 ```bash
-python3 ~/.claude/skills/watch-video/scripts/watch.py scan "<file or URL>"
+python3 <this skill's folder>/scripts/watch.py scan "<file or URL>"
 ```
+
+The skill's folder is the base directory shown when this skill loads (installed by hand, it is
+`~/.claude/skills/watch-video`). **First use:** if a command says the speech model is missing, tell the
+user it needs a one-time 488 MB download, and on their yes run `watch.py setup` (add `--speakers` to
+tell real voices apart, `--sheng` for Kenyan speech). macOS only.
 
 It prints two paths. **Read `BRIEF.md` first and usually only that**: about a page with the key
 moments, what was said and by whom, text on screen, and people. Most questions (what happens, what did

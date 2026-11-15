@@ -14,10 +14,12 @@ import re
 from functools import lru_cache
 from pathlib import Path
 
+import media
+
 SKILL = Path(__file__).resolve().parent.parent
 DATA = SKILL / "data" / "sheng"
-MAIN_MODEL, MAIN_DTW = SKILL / "models" / "ggml-large-v3-turbo-q5_0.bin", "large.v3.turbo"
-EAR2_MODEL, EAR2_DTW = SKILL / "models" / "ggml-swahili-small-q8_0.bin", "small"
+MAIN_MODEL, MAIN_DTW = media.HOME / "models" / "ggml-large-v3-turbo-q5_0.bin", "large.v3.turbo"
+EAR2_MODEL, EAR2_DTW = media.HOME / "models" / "ggml-swahili-small-q8_0.bin", "small"
 KENYAN_SHARE = 0.15       # this share of words being Sheng/Swahili (not English) switches Sheng mode on
 WORD = re.compile(r"[a-z][a-z']+")
 

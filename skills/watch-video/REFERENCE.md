@@ -182,6 +182,12 @@ Turbo on auto-language can loop an invented English sentence over Sheng; that's 
   and very new or very local Sheng words may still be misheard.
 - Camera shake can hide small local events. Check busy stretches with `look`.
 
+## Known system quirk
+
+On some Macs, Apple's accurate text model fails to load from its cache for a while (`e5rt` errors, often
+right after the helper is rebuilt). The helper then reads text with the fast model for 30 minutes, which
+is a little weaker on small or stylised text. `VSENSE_OCR=fast` forces it.
+
 ## Requirements
 
 `ffmpeg`, `whisper-cli` (Homebrew `whisper-cpp`), and the model at `models/ggml-small.bin`.

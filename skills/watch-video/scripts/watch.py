@@ -6,6 +6,7 @@
   watch.py zoom   DIR --t T [--box x,y,w,h] [--stack 9] (normalized, top-left origin)
   watch.py frame  DIR --t T                            (one full-resolution frame)
   watch.py listen DIR --start S --end E               (speech, sounds, loudness in a range)
+  watch.py setup  [--speakers] [--sheng] [--all]       (first run: models and helper)
   watch.py live   screen|camera|<url|file> [--chunk 10] [--for SECONDS]   (watch as it happens)
 
 `scan` is peripheral vision (every frame and every 50 ms of audio, as cheap signals) plus a
@@ -329,6 +330,11 @@ def live_cmd(args) -> None:
     live.live(args.source, out, args.chunk, args.seconds, args.budget)
 
 
+def setup_cmd(args) -> None:
+    import setup
+    setup.setup(args.speakers or args.all, args.sheng or args.all)
+
+
 def main() -> int:
     p = argparse.ArgumentParser(description="Watch a video like a person.")
     sub = p.add_subparsers(dest="cmd", required=True)
@@ -348,11 +354,13 @@ def main() -> int:
     v.add_argument("--out"); v.add_argument("--chunk", type=int, default=10)
     v.add_argument("--for", dest="seconds", type=float, default=0, help="stop after this many seconds")
     v.add_argument("--budget", type=int, default=2)
+    su = sub.add_parser("setup"); su.add_argument("--speakers", action="store_true")
+    su.add_argument("--sheng", action="store_true"); su.add_argument("--all", action="store_true")
     a = sub.add_parser("listen"); a.add_argument("dir"); a.add_argument("--start", type=float, required=True)
     a.add_argument("--end", type=float, required=True)
     args = p.parse_args()
     try:
-        {"scan": scan, "look": look, "zoom": zoom, "frame": frame_cmd, "listen": listen, "live": live_cmd}[args.cmd](args)
+        {"scan": scan, "look": look, "zoom": zoom, "frame": frame_cmd, "listen": listen, "live": live_cmd, "setup": setup_cmd}[args.cmd](args)
     except MediaError as exc:
         print(f"watch-video: {exc}", file=sys.stderr)
         return 1
