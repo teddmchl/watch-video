@@ -1,0 +1,5858 @@
+{
+"uko": {
+"count": 19,
+"sources": [
+"sheng_nlu",
+"wiktionary"
+]
+},
+"niko": {
+"count": 13,
+"sources": [
+"sheng_nlu",
+"wikipedia"
+]
+},
+"kenya's": {
+"count": 11,
+"sources": [
+"lughayangu",
+"wikipedia"
+]
+},
+"ndio": {
+"count": 8,
+"sources": [
+"sheng_nlu",
+"wikipedia"
+]
+},
+"iko": {
+"count": 7,
+"sources": [
+"sheng_nlu"
+]
+},
+"oooh": {
+"count": 7,
+"sources": [
+"sheng_nlu"
+]
+},
+"hakuna": {
+"count": 7,
+"sources": [
+"sheng_nlu"
+]
+},
+"shembeteng": {
+"count": 7,
+"sources": [
+"wikipedia"
+]
+},
+"africa": {
+"count": 7,
+"sources": [
+"wikipedia"
+]
+},
+"fiti": {
+"count": 6,
+"sources": [
+"sheng_nlu",
+"wikipedia",
+"wiktionary"
+]
+},
+"fity": {
+"count": 6,
+"sources": [
+"sheng_nlu"
+]
+},
+"studies''": {
+"count": 6,
+"sources": [
+"wikipedia"
+]
+},
+"btw": {
+"count": 5,
+"sources": [
+"sheng_nlu"
+]
+},
+"hapo": {
+"count": 5,
+"sources": [
+"sheng_nlu",
+"wikipedia"
+]
+},
+"ndo": {
+"count": 5,
+"sources": [
+"sheng_nlu",
+"wikipedia"
+]
+},
+"wacha": {
+"count": 5,
+"sources": [
+"sheng_nlu"
+]
+},
+"naona": {
+"count": 5,
+"sources": [
+"sheng_nlu"
+]
+},
+"sahii": {
+"count": 5,
+"sources": [
+"sheng_nlu"
+]
+},
+"unaeza": {
+"count": 5,
+"sources": [
+"sheng_nlu",
+"wikipedia"
+]
+},
+"aje": {
+"count": 4,
+"sources": [
+"sheng_nlu"
+]
+},
+"alafu": {
+"count": 4,
+"sources": [
+"sheng_nlu"
+]
+},
+"itabidi": {
+"count": 4,
+"sources": [
+"sheng_nlu"
+]
+},
+"walai": {
+"count": 4,
+"sources": [
+"sheng_nlu"
+]
+},
+"hivo": {
+"count": 4,
+"sources": [
+"sheng_nlu"
+]
+},
+"ngori": {
+"count": 4,
+"sources": [
+"sheng_nlu",
+"wikipedia"
+]
+},
+"nadai": {
+"count": 4,
+"sources": [
+"sheng_nlu"
+]
+},
+"msee": {
+"count": 4,
+"sources": [
+"lughayangu",
+"sheng_nlu",
+"wikipedia"
+]
+},
+"unadai": {
+"count": 4,
+"sources": [
+"sheng_nlu"
+]
+},
+"kwanini": {
+"count": 4,
+"sources": [
+"sheng_nlu"
+]
+},
+"najua": {
+"count": 4,
+"sources": [
+"sheng_nlu"
+]
+},
+"twista": {
+"count": 4,
+"sources": [
+"lughayangu"
+]
+},
+"aaaah": {
+"count": 3,
+"sources": [
+"sheng_nlu"
+]
+},
+"hio": {
+"count": 3,
+"sources": [
+"sheng_nlu"
+]
+},
+"ooooh": {
+"count": 3,
+"sources": [
+"sheng_nlu"
+]
+},
+"okay": {
+"count": 3,
+"sources": [
+"sheng_nlu"
+]
+},
+"ivo": {
+"count": 3,
+"sources": [
+"sheng_nlu"
+]
+},
+"eeeeh": {
+"count": 3,
+"sources": [
+"sheng_nlu"
+]
+},
+"haina": {
+"count": 3,
+"sources": [
+"sheng_nlu"
+]
+},
+"freshi": {
+"count": 3,
+"sources": [
+"sheng_nlu",
+"wiktionary"
+]
+},
+"utakuwa": {
+"count": 3,
+"sources": [
+"sheng_nlu"
+]
+},
+"gai": {
+"count": 3,
+"sources": [
+"sheng_nlu"
+]
+},
+"inaeza": {
+"count": 3,
+"sources": [
+"sheng_nlu"
+]
+},
+"ntakuchapia": {
+"count": 3,
+"sources": [
+"sheng_nlu"
+]
+},
+"gbag": {
+"count": 3,
+"sources": [
+"lughayangu"
+]
+},
+"bie": {
+"count": 3,
+"sources": [
+"lughayangu",
+"wikipedia"
+]
+},
+"ngovo": {
+"count": 3,
+"sources": [
+"lughayangu",
+"wikipedia",
+"wiktionary"
+]
+},
+"mbao": {
+"count": 3,
+"sources": [
+"lughayangu",
+"wikipedia",
+"wiktionary"
+]
+},
+"finje": {
+"count": 3,
+"sources": [
+"lughayangu",
+"wikipedia",
+"wiktionary"
+]
+},
+"chuani": {
+"count": 3,
+"sources": [
+"lughayangu",
+"wikipedia"
+]
+},
+"rwabe": {
+"count": 3,
+"sources": [
+"lughayangu",
+"wikipedia"
+]
+},
+"thao": {
+"count": 3,
+"sources": [
+"lughayangu",
+"wikipedia",
+"wiktionary"
+]
+},
+"keroma": {
+"count": 3,
+"sources": [
+"lughayangu",
+"wikipedia"
+]
+},
+"mkwanja": {
+"count": 3,
+"sources": [
+"lughayangu",
+"wikipedia",
+"wiktionary"
+]
+},
+"linguistics''": {
+"count": 3,
+"sources": [
+"wikipedia"
+]
+},
+"fridah": {
+"count": 3,
+"sources": [
+"wikipedia"
+]
+},
+"kanana": {
+"count": 3,
+"sources": [
+"wikipedia"
+]
+},
+"niaje": {
+"count": 2,
+"sources": [
+"sheng_nlu"
+]
+},
+"nimekuwa": {
+"count": 2,
+"sources": [
+"sheng_nlu"
+]
+},
+"unasemaje": {
+"count": 2,
+"sources": [
+"sheng_nlu"
+]
+},
+"itakuaje": {
+"count": 2,
+"sources": [
+"sheng_nlu"
+]
+},
+"mazee": {
+"count": 2,
+"sources": [
+"sheng_nlu"
+]
+},
+"venye": {
+"count": 2,
+"sources": [
+"sheng_nlu"
+]
+},
+"itaweza": {
+"count": 2,
+"sources": [
+"sheng_nlu"
+]
+},
+"safiii": {
+"count": 2,
+"sources": [
+"sheng_nlu"
+]
+},
+"siezi": {
+"count": 2,
+"sources": [
+"sheng_nlu"
+]
+},
+"haiwezi": {
+"count": 2,
+"sources": [
+"sheng_nlu"
+]
+},
+"sikuwa": {
+"count": 2,
+"sources": [
+"sheng_nlu"
+]
+},
+"sijui": {
+"count": 2,
+"sources": [
+"sheng_nlu"
+]
+},
+"nayo": {
+"count": 2,
+"sources": [
+"sheng_nlu"
+]
+},
+"fityy": {
+"count": 2,
+"sources": [
+"sheng_nlu"
+]
+},
+"shukran": {
+"count": 2,
+"sources": [
+"sheng_nlu"
+]
+},
+"inafaa": {
+"count": 2,
+"sources": [
+"sheng_nlu"
+]
+},
+"nyc": {
+"count": 2,
+"sources": [
+"sheng_nlu"
+]
+},
+"waah": {
+"count": 2,
+"sources": [
+"sheng_nlu"
+]
+},
+"lkn": {
+"count": 2,
+"sources": [
+"sheng_nlu"
+]
+},
+"vitu": {
+"count": 2,
+"sources": [
+"sheng_nlu",
+"wikipedia"
+]
+},
+"nlikua": {
+"count": 2,
+"sources": [
+"sheng_nlu"
+]
+},
+"zingine": {
+"count": 2,
+"sources": [
+"sheng_nlu"
+]
+},
+"unadu": {
+"count": 2,
+"sources": [
+"sheng_nlu"
+]
+},
+"nauliza": {
+"count": 2,
+"sources": [
+"sheng_nlu"
+]
+},
+"nashangaa": {
+"count": 2,
+"sources": [
+"sheng_nlu"
+]
+},
+"sijajua": {
+"count": 2,
+"sources": [
+"sheng_nlu"
+]
+},
+"naskia": {
+"count": 2,
+"sources": [
+"sheng_nlu",
+"wiktionary"
+]
+},
+"khai": {
+"count": 2,
+"sources": [
+"sheng_nlu"
+]
+},
+"ghaiye": {
+"count": 2,
+"sources": [
+"sheng_nlu"
+]
+},
+"niambie": {
+"count": 2,
+"sources": [
+"sheng_nlu"
+]
+},
+"kuongea": {
+"count": 2,
+"sources": [
+"sheng_nlu",
+"wikipedia"
+]
+},
+"ntacheki": {
+"count": 2,
+"sources": [
+"sheng_nlu"
+]
+},
+"niskie": {
+"count": 2,
+"sources": [
+"sheng_nlu"
+]
+},
+"naisaka": {
+"count": 2,
+"sources": [
+"sheng_nlu"
+]
+},
+"nmekuget": {
+"count": 2,
+"sources": [
+"sheng_nlu"
+]
+},
+"email": {
+"count": 2,
+"sources": [
+"sheng_nlu"
+]
+},
+"madogo": {
+"count": 2,
+"sources": [
+"sheng_nlu"
+]
+},
+"utanichapia": {
+"count": 2,
+"sources": [
+"sheng_nlu"
+]
+},
+"siaka": {
+"count": 2,
+"sources": [
+"lughayangu"
+]
+},
+"waganis": {
+"count": 2,
+"sources": [
+"lughayangu"
+]
+},
+"uduu": {
+"count": 2,
+"sources": [
+"lughayangu"
+]
+},
+"oteroh": {
+"count": 2,
+"sources": [
+"lughayangu"
+]
+},
+"brejin": {
+"count": 2,
+"sources": [
+"lughayangu"
+]
+},
+"wantam": {
+"count": 2,
+"sources": [
+"lughayangu"
+]
+},
+"vulai": {
+"count": 2,
+"sources": [
+"lughayangu"
+]
+},
+"doba": {
+"count": 2,
+"sources": [
+"lughayangu"
+]
+},
+"diglo": {
+"count": 2,
+"sources": [
+"lughayangu"
+]
+},
+"mbegega": {
+"count": 2,
+"sources": [
+"lughayangu"
+]
+},
+"kudada": {
+"count": 2,
+"sources": [
+"lughayangu"
+]
+},
+"njwang'a": {
+"count": 2,
+"sources": [
+"lughayangu"
+]
+},
+"mbogi": {
+"count": 2,
+"sources": [
+"lughayangu"
+]
+},
+"gwethe": {
+"count": 2,
+"sources": [
+"lughayangu"
+]
+},
+"njora": {
+"count": 2,
+"sources": [
+"lughayangu"
+]
+},
+"packe": {
+"count": 2,
+"sources": [
+"lughayangu"
+]
+},
+"gwangi": {
+"count": 2,
+"sources": [
+"lughayangu"
+]
+},
+"ordinare": {
+"count": 2,
+"sources": [
+"lughayangu"
+]
+},
+"zombotov": {
+"count": 2,
+"sources": [
+"lughayangu"
+]
+},
+"nyongi": {
+"count": 2,
+"sources": [
+"lughayangu"
+]
+},
+"mashiro": {
+"count": 2,
+"sources": [
+"lughayangu"
+]
+},
+"mbanga": {
+"count": 2,
+"sources": [
+"lughayangu"
+]
+},
+"kwela": {
+"count": 2,
+"sources": [
+"lughayangu"
+]
+},
+"majegi": {
+"count": 2,
+"sources": [
+"lughayangu"
+]
+},
+"woza": {
+"count": 2,
+"sources": [
+"lughayangu"
+]
+},
+"wozaa": {
+"count": 2,
+"sources": [
+"lughayangu"
+]
+},
+"kudonjo": {
+"count": 2,
+"sources": [
+"lughayangu"
+]
+},
+"charji": {
+"count": 2,
+"sources": [
+"lughayangu"
+]
+},
+"shavaa": {
+"count": 2,
+"sources": [
+"lughayangu"
+]
+},
+"senge": {
+"count": 2,
+"sources": [
+"lughayangu"
+]
+},
+"maduya": {
+"count": 2,
+"sources": [
+"lughayangu"
+]
+},
+"jeli": {
+"count": 2,
+"sources": [
+"lughayangu"
+]
+},
+"majuu": {
+"count": 2,
+"sources": [
+"lughayangu",
+"wikipedia"
+]
+},
+"mbwegze": {
+"count": 2,
+"sources": [
+"lughayangu"
+]
+},
+"ashu": {
+"count": 2,
+"sources": [
+"lughayangu",
+"wiktionary"
+]
+},
+"ikongo": {
+"count": 2,
+"sources": [
+"lughayangu",
+"wikipedia"
+]
+},
+"nich": {
+"count": 2,
+"sources": [
+"lughayangu",
+"wikipedia"
+]
+},
+"pachas": {
+"count": 2,
+"sources": [
+"lughayangu",
+"wikipedia"
+]
+},
+"exsoo": {
+"count": 2,
+"sources": [
+"lughayangu",
+"wikipedia"
+]
+},
+"doso": {
+"count": 2,
+"sources": [
+"lughayangu",
+"wikipedia"
+]
+},
+"jii": {
+"count": 2,
+"sources": [
+"lughayangu",
+"wikipedia"
+]
+},
+"kapaa": {
+"count": 2,
+"sources": [
+"lughayangu",
+"wikipedia"
+]
+},
+"ngwanye": {
+"count": 2,
+"sources": [
+"lughayangu",
+"wikipedia"
+]
+},
+"azar": {
+"count": 2,
+"sources": [
+"lughayangu",
+"wikipedia"
+]
+},
+"muti": {
+"count": 2,
+"sources": [
+"lughayangu",
+"wikipedia"
+]
+},
+"chapaa": {
+"count": 2,
+"sources": [
+"lughayangu",
+"wikipedia"
+]
+},
+"munde": {
+"count": 2,
+"sources": [
+"lughayangu",
+"wikipedia"
+]
+},
+"mundez": {
+"count": 2,
+"sources": [
+"lughayangu",
+"wikipedia"
+]
+},
+"niado": {
+"count": 2,
+"sources": [
+"lughayangu",
+"wikipedia"
+]
+},
+"ganji": {
+"count": 2,
+"sources": [
+"lughayangu",
+"wikipedia"
+]
+},
+"cheddar": {
+"count": 2,
+"sources": [
+"lughayangu",
+"wikipedia"
+]
+},
+"chedaz": {
+"count": 2,
+"sources": [
+"lughayangu",
+"wikipedia"
+]
+},
+"makwarkwar": {
+"count": 2,
+"sources": [
+"lughayangu",
+"wikipedia"
+]
+},
+"msapere": {
+"count": 2,
+"sources": [
+"lughayangu",
+"wikipedia"
+]
+},
+"sanse": {
+"count": 2,
+"sources": [
+"lughayangu",
+"wikipedia"
+]
+},
+"dwanzi": {
+"count": 2,
+"sources": [
+"lughayangu",
+"wikipedia"
+]
+},
+"kidale": {
+"count": 2,
+"sources": [
+"lughayangu",
+"wikipedia"
+]
+},
+"jero": {
+"count": 2,
+"sources": [
+"wiktionary"
+]
+},
+"ghai": {
+"count": 2,
+"sources": [
+"wiktionary"
+]
+},
+"mbongo": {
+"count": 2,
+"sources": [
+"wiktionary"
+]
+},
+"pisi": {
+"count": 2,
+"sources": [
+"wiktionary"
+]
+},
+"rongi": {
+"count": 2,
+"sources": [
+"wikipedia"
+]
+},
+"shembeteng'": {
+"count": 2,
+"sources": [
+"wikipedia"
+]
+},
+"website": {
+"count": 2,
+"sources": [
+"wikipedia"
+]
+},
+"kenyans": {
+"count": 2,
+"sources": [
+"wikipedia"
+]
+},
+"ghostarchive": {
+"count": 2,
+"sources": [
+"wikipedia"
+]
+},
+"don't": {
+"count": 2,
+"sources": [
+"wikipedia"
+]
+},
+"wikitable": {
+"count": 2,
+"sources": [
+"wikipedia"
+]
+},
+"africanis": {
+"count": 2,
+"sources": [
+"wikipedia"
+]
+},
+"rodhi''": {
+"count": 2,
+"sources": [
+"wikipedia"
+]
+},
+"zabe''": {
+"count": 2,
+"sources": [
+"wikipedia"
+]
+},
+"noma''": {
+"count": 2,
+"sources": [
+"wikipedia"
+]
+},
+"sepa''": {
+"count": 2,
+"sources": [
+"wikipedia"
+]
+},
+"moshatha": {
+"count": 2,
+"sources": [
+"wikipedia"
+]
+},
+"niku": {
+"count": 2,
+"sources": [
+"wikipedia"
+]
+},
+"gwan": {
+"count": 2,
+"sources": [
+"wikipedia"
+]
+},
+"bazu''": {
+"count": 2,
+"sources": [
+"wikipedia"
+]
+},
+"njeve": {
+"count": 2,
+"sources": [
+"wikipedia"
+]
+},
+"mdhii": {
+"count": 2,
+"sources": [
+"wikipedia"
+]
+},
+"arinzu": {
+"count": 2,
+"sources": [
+"wikipedia"
+]
+},
+"fegi": {
+"count": 2,
+"sources": [
+"wikipedia"
+]
+},
+"gova": {
+"count": 2,
+"sources": [
+"wikipedia"
+]
+},
+"mathe": {
+"count": 2,
+"sources": [
+"wikipedia"
+]
+},
+"mthama": {
+"count": 2,
+"sources": [
+"wikipedia"
+]
+},
+"mondhres''": {
+"count": 2,
+"sources": [
+"wikipedia"
+]
+},
+"mboch": {
+"count": 2,
+"sources": [
+"wikipedia"
+]
+},
+"mbota": {
+"count": 2,
+"sources": [
+"wikipedia"
+]
+},
+"msoto": {
+"count": 2,
+"sources": [
+"wikipedia"
+]
+},
+"mzing": {
+"count": 2,
+"sources": [
+"wikipedia"
+]
+},
+"mokoro": {
+"count": 2,
+"sources": [
+"wikipedia"
+]
+},
+"maasai": {
+"count": 2,
+"sources": [
+"wikipedia"
+]
+},
+"kisii": {
+"count": 2,
+"sources": [
+"wikipedia"
+]
+},
+"kalenjin": {
+"count": 2,
+"sources": [
+"wikipedia"
+]
+},
+"meru": {
+"count": 2,
+"sources": [
+"wikipedia"
+]
+},
+"kuria": {
+"count": 2,
+"sources": [
+"wikipedia"
+]
+},
+"mboka''": {
+"count": 2,
+"sources": [
+"wikipedia"
+]
+},
+"njiva": {
+"count": 2,
+"sources": [
+"wikipedia"
+]
+},
+"mzii": {
+"count": 2,
+"sources": [
+"wikipedia"
+]
+},
+"you'll": {
+"count": 2,
+"sources": [
+"wikipedia"
+]
+},
+"kizimbani": {
+"count": 2,
+"sources": [
+"wikipedia"
+]
+},
+"ukivuta": {
+"count": 2,
+"sources": [
+"wikipedia"
+]
+},
+"utajiletea": {
+"count": 2,
+"sources": [
+"wikipedia"
+]
+},
+"kuja": {
+"count": 2,
+"sources": [
+"wikipedia"
+]
+},
+"utugawie": {
+"count": 2,
+"sources": [
+"wikipedia"
+]
+},
+"budake": {
+"count": 2,
+"sources": [
+"wikipedia"
+]
+},
+"babake": {
+"count": 2,
+"sources": [
+"wikipedia"
+]
+},
+"aliibiwa": {
+"count": 2,
+"sources": [
+"wikipedia"
+]
+},
+"aliona": {
+"count": 2,
+"sources": [
+"wikipedia"
+]
+},
+"barasa": {
+"count": 2,
+"sources": [
+"wikipedia"
+]
+},
+"beyond''": {
+"count": 2,
+"sources": [
+"wikipedia"
+]
+},
+"nico": {
+"count": 2,
+"sources": [
+"wikipedia"
+]
+},
+"nassenstein": {
+"count": 2,
+"sources": [
+"wikipedia"
+]
+},
+"hollington": {
+"count": 2,
+"sources": [
+"wikipedia"
+]
+},
+"gruyter": {
+"count": 2,
+"sources": [
+"wikipedia"
+]
+},
+"bosire": {
+"count": 2,
+"sources": [
+"wikipedia"
+]
+},
+"mokaya": {
+"count": 2,
+"sources": [
+"wikipedia"
+]
+},
+"githinji": {
+"count": 2,
+"sources": [
+"wikipedia"
+]
+},
+"phd": {
+"count": 2,
+"sources": [
+"wikipedia"
+]
+},
+"githiora": {
+"count": 2,
+"sources": [
+"wikipedia"
+]
+},
+"kebeya": {
+"count": 2,
+"sources": [
+"wikipedia"
+]
+},
+"codeswitching": {
+"count": 2,
+"sources": [
+"wikipedia"
+]
+},
+"ogechi": {
+"count": 2,
+"sources": [
+"wikipedia"
+]
+},
+"africa''": {
+"count": 2,
+"sources": [
+"wikipedia"
+]
+},
+"http": {
+"count": 2,
+"sources": [
+"wikipedia"
+]
+},
+"wasemaje": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"oyah": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"siko": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"umeshindaje": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"nko": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"nmeamka": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"sasaa": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"bro": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"fty": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"imebidi": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"eeeh": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"mazeee": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"poapoa": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"inakaa": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"nadaaiii": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"utaamua": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"tungoje": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"umenena": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"inaweza": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"ilinbamba": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"nimemada": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"inaeleweka": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"iende": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"ikiendaga": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"ooh": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"chezea": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"isorait": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"ntaicheck": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"hmm": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"banaa": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"aaah": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"sasawa": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"fityyy": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"nliona": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"vizii": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"nmekua": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"naiona": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"katambe": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"issaplan": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"nmeget": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"nimedai": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"eeh": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"sipendi": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"aih": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"nimegive": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"haileti": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"nikwambie": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"sijasema": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"sijai": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"haiezi": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"sidai": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"ziii": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"nimekataa": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"aiwezekani": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"sioni": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"imefika": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"umeniokolea": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"manzee": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"usijali": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"nimekufeel": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"izaa": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"plz": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"thanx": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"info": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"eih": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"unishow": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"akishabuy": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"anafanya": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"umeenda": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"nlikuwa": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"ulipata": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"umelostia": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"inamaanisha": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"warrathos": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"nisiende": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"haiya": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"inakuanga": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"mangapiii": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"kujua": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"uliniambia": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"umeipata": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"kwingine": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"yenye": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"natafuta": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"ulikuwa": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"unataka": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"ulinishow": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"ulinsho": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"umepata": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"kibandaski": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"naeza": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"nikuulize": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"nijue": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"tulienda": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"apo": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"huendangi": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"wasikupee": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"umeanza": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"ulisumbua": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"niambia": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"usinicheke": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"aki": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"ulipiga": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"kakitu": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"aaaaii": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"icome": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"kuchil": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"niskizie": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"skujua": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"nacheza": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"imesink": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"woiye": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"nmeland": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"nimekuona": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"kaaai": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"nambie": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"aliipull": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"thru": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"kejani": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"uniliacha": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"issa": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"nilijua": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"utasema": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"hujawai": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"maroundi": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"imetoka": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"mnoma": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"kusema": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"umeboeka": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"itakuja": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"waaah": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"imeisha": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"siendagi": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"kuangusha": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"nachangamkia": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"weno": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"ivi": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"nimetry": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"aminia": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"hufeel": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"watu": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"hawaongei": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"umesort": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"huna": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"tufanye": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"kalunch": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"kaanza": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"izo": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"tuone": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"tunafikanga": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"ivor": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"mapemaa": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"nimchapie": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"nacheki": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"nitakusort": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"nimekafunga": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"nitakushow": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"nextweek": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"ntamake": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"hana": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"znaeza": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"kupea": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"nshow": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"nmeichangamkia": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"ilicome": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"nichapie": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"ntasaka": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"unasema": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"ilkulemea": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"imeharibia": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"nmeitafuta": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"nimeget": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"niangalie": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"nangoja": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"ulipe": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"nimeshikika": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"ulimwambia": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"unajua": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"niseme": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"usiulizwe": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"ukiangalia": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"ukinipigia": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"nilikuwa": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"nimeenda": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"kuoshwa": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"ikishaenda": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"hairudi": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"imenieka": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"nafikirianga": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"mingi": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"huwa": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"sisemi": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"unarelax": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"sko": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"tudunde": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"tunadunda": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"wapiiii": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"nmecheza": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"nikusort": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"ntakushow": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"hupatikani": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"mnaniogopa": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"unapenda": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"nakusort": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"mkubwa": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"sindio": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"sitaki": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"ufala": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"unaitaji": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"niulize": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"ukiboeka": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"nitext": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"skuwa": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"nimeona": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"nicheki": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"umenyamaza": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"imekam": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"nategea": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"umalize": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"nikushow": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"tutadiscuss": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"stori": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"nakwelewa": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"tujue": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"kulearn": {
+"count": 1,
+"sources": [
+"sheng_nlu"
+]
+},
+"kunyonga": {
+"count": 1,
+"sources": [
+"lughayangu"
+]
+},
+"haga": {
+"count": 1,
+"sources": [
+"lughayangu"
+]
+},
+"jegi": {
+"count": 1,
+"sources": [
+"lughayangu"
+]
+},
+"jaroya": {
+"count": 1,
+"sources": [
+"lughayangu"
+]
+},
+"wasee": {
+"count": 1,
+"sources": [
+"lughayangu"
+]
+},
+"you're": {
+"count": 1,
+"sources": [
+"lughayangu"
+]
+},
+"jamo": {
+"count": 1,
+"sources": [
+"lughayangu"
+]
+},
+"utat": {
+"count": 1,
+"sources": [
+"lughayangu"
+]
+},
+"guoko": {
+"count": 1,
+"sources": [
+"lughayangu"
+]
+},
+"kinde": {
+"count": 1,
+"sources": [
+"lughayangu"
+]
+},
+"teja": {
+"count": 1,
+"sources": [
+"lughayangu"
+]
+},
+"blu": {
+"count": 1,
+"sources": [
+"lughayangu"
+]
+},
+"bamo": {
+"count": 1,
+"sources": [
+"lughayangu"
+]
+},
+"mbalu": {
+"count": 1,
+"sources": [
+"lughayangu"
+]
+},
+"salasa": {
+"count": 1,
+"sources": [
+"lughayangu"
+]
+},
+"fokate": {
+"count": 1,
+"sources": [
+"lughayangu"
+]
+},
+"chwani": {
+"count": 1,
+"sources": [
+"lughayangu"
+]
+},
+"chweza": {
+"count": 1,
+"sources": [
+"lughayangu"
+]
+},
+"gongoroo": {
+"count": 1,
+"sources": [
+"lughayangu"
+]
+},
+"gongoro": {
+"count": 1,
+"sources": [
+"lughayangu"
+]
+},
+"jirongo": {
+"count": 1,
+"sources": [
+"lughayangu"
+]
+},
+"bramba": {
+"count": 1,
+"sources": [
+"lughayangu"
+]
+},
+"mukuchu": {
+"count": 1,
+"sources": [
+"lughayangu"
+]
+},
+"sheng'": {
+"count": 1,
+"sources": [
+"lughayangu"
+]
+},
+"mtaani": {
+"count": 1,
+"sources": [
+"lughayangu"
+]
+},
+"we've": {
+"count": 1,
+"sources": [
+"lughayangu"
+]
+},
+"kugutha": {
+"count": 1,
+"sources": [
+"lughayangu"
+]
+},
+"unadiglo": {
+"count": 1,
+"sources": [
+"lughayangu"
+]
+},
+"ironic": {
+"count": 1,
+"sources": [
+"lughayangu"
+]
+},
+"can't": {
+"count": 1,
+"sources": [
+"lughayangu"
+]
+},
+"jikute": {
+"count": 1,
+"sources": [
+"lughayangu"
+]
+},
+"roughneck": {
+"count": 1,
+"sources": [
+"lughayangu"
+]
+},
+"donjo": {
+"count": 1,
+"sources": [
+"lughayangu"
+]
+},
+"umoroto": {
+"count": 1,
+"sources": [
+"lughayangu"
+]
+},
+"bazu": {
+"count": 1,
+"sources": [
+"lughayangu"
+]
+},
+"sponyo": {
+"count": 1,
+"sources": [
+"lughayangu"
+]
+},
+"nyonginyo": {
+"count": 1,
+"sources": [
+"lughayangu"
+]
+},
+"dimanga": {
+"count": 1,
+"sources": [
+"lughayangu"
+]
+},
+"mbwekze": {
+"count": 1,
+"sources": [
+"lughayangu"
+]
+},
+"pira": {
+"count": 1,
+"sources": [
+"lughayangu"
+]
+},
+"shagla": {
+"count": 1,
+"sources": [
+"lughayangu"
+]
+},
+"changli": {
+"count": 1,
+"sources": [
+"lughayangu"
+]
+},
+"fuuuu": {
+"count": 1,
+"sources": [
+"lughayangu"
+]
+},
+"yeng'": {
+"count": 1,
+"sources": [
+"lughayangu"
+]
+},
+"buzi": {
+"count": 1,
+"sources": [
+"wiktionary"
+]
+},
+"dala": {
+"count": 1,
+"sources": [
+"wiktionary"
+]
+},
+"fafa": {
+"count": 1,
+"sources": [
+"wiktionary"
+]
+},
+"juala": {
+"count": 1,
+"sources": [
+"wiktionary"
+]
+},
+"jum": {
+"count": 1,
+"sources": [
+"wiktionary"
+]
+},
+"kolabo": {
+"count": 1,
+"sources": [
+"wiktionary"
+]
+},
+"kudadadeki": {
+"count": 1,
+"sources": [
+"wiktionary"
+]
+},
+"kudadeki": {
+"count": 1,
+"sources": [
+"wiktionary"
+]
+},
+"manyake": {
+"count": 1,
+"sources": [
+"wiktionary"
+]
+},
+"mdachi": {
+"count": 1,
+"sources": [
+"wiktionary"
+]
+},
+"internet": {
+"count": 1,
+"sources": [
+"wiktionary"
+]
+},
+"dmy": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"infobox": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"altname": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"nativename": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"sigfig": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"familycolor": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"sheng'''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"neighbouring": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"tanzania": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"uganda": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"franca": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"standardised": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"eng'''lish": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"swa'''h'''ili": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"seng": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"lishes'": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"wide''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"doi": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"eww": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"heard": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"kalamashaka": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"mainstream": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"largest": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"larger": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"neighbourhoods": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"shengilo": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"shengtezo": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"kayole": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"mbata''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"mbete''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"mbiti''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"mboto''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"mbutu''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"ogetta": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"opanda": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"kinyanjui": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"tiktok": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"orengo": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"opiyo": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"oduor": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"augustine": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"plc": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"mbichi''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"zang": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"wira": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"baroda''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"mutina": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"motina''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"kitu''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"nyong'inyo''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"bosco''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"kinda''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"dunga''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"ngasha''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"kugura''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"denki''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"idha''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"mnati": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"ras''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"rastafari": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"barbie''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"doesn't": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"gah''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"roroa": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"tema''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"mavi''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"kukafunga''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"para''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"digaga''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"setoka''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"mbwakni''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"peremba''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"dai''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"dungia": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"doong": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"ah''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"vutia''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"apantambua''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"serereka''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"dimbua''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"stick''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"ndeng'a": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"thwau": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"bunde": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"mchuma": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"mtoo": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"ridhe": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"toka''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"demo''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"cheng''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"os''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"vioo''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"hundrends": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"hamusini": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"nich''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"mbalu''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"ashuu": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"kindee": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"teja''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"wai": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"shika''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"guoko''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"jill''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"jirongo''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"bramba''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"mweh": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"reh''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"zuzu''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"ocha": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"shaggz''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"liet": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"hatata": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"moto''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"conte''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"oposh": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"fatso": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"gb''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"njeve''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"buya''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"kanjo''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"chapo''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"ngodha''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"mzing'": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"mguys": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"mzeiya": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"mtunguyaz": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"mzaee": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"morio''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"mresh": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"supuu": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"msupa": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"manzi": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"shawty": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"mroro": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"mshee": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"totoh": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"yeng": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"mdenge": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"nyegz": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"ngus''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"mzae": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"mzing''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"gweng": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"gwan''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"nada": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"nah''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"mathree": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"jav": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"nganya''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"ngwai": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"kithuke": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"ndom": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"kenti": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"mashashola": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"kindukulu": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"shada''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"msudi''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"deree": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"kigonyi": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"vandere''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"konkodi": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"makanga": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"manumber": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"donda''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"mozo": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"ngale": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"fuaka''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"mzae''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"karao": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"keja": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"mbanyu": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"guba": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"ndaki''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"matha": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"chinebo''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"housegirl": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"wochi''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"mbwenya": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"blazer''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"dhafu": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"githafu": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"madhafu": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"mao''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"mdosi": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"sonko": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"penki": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"okwonkwo": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"dela": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"mbleina": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"hustler''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"chupri''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"a''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"fathe": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"mnyaka": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"moda": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"oga''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"nigeria": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"ndauo''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"mngoso''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"mchinku''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"gaki''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"mkiuk": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"okuyu''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"mkao": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"mcambodia": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"mnduli''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"mjaka": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"mjaze": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"mjaksus": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"mjathe''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"mgirish''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"giriama": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"mlunje''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"mkale''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"arges": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"walalo": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"oria": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"msom''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"kasee''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"baite": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"vaite": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"muraa''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"nare": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"nah": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"ndai": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"moti": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"murenga": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"dinga''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"ngata": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"gah": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"tah": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"ngede": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"geh": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"deh": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"irori''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"nguenos": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"ngwex": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"ngwetes": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"ngokos''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"ndula": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"magwanda": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"manduleng'": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"kladi''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"chonjo''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"maunenge": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"kidale''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"uaganis''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"veve": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"mbachu": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"mogoka": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"jaba''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"kuber": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"beh": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"r''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"kubz": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"mungich": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"mungiki''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"mburungo''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"donje": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"kubeat''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"fyat": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"chizi''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"teo''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"chipo": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"chibaz": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"vanga''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"jikata": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"kirende": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"mbogi''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"earthwire''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"nyonde''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"chuom''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"shortcut": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"dush''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"mafi": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"shoi": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"shoste''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"faeces": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"shower''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"moh": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"day''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"odijo''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"omoka": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"kukafunga": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"mayolo": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"farova''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"mlami": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"myuro''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"mtiaji": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"msororaji": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"mrazi''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"kauzi": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"thegi": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"ob''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"gwangi''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"masaa": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"githaa''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"gf''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"boyfriend": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"girlfriend": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"raruka''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"karokota": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"kufinyilia": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"kutuna": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"dwatha''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"nyaku": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"gwezere": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"kalesa": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"tembeza''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"tei": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"maji''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"tenje": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"mtambo''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"nangos": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"digitz''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"colspan": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"umekemba": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"gazo": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"fom": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"zimekalas": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"imeramba": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"mayenx": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"viudu": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"imechapishwa": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"magazetini": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"imeathiri": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"vijana": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"kiafya": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"akili''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"shosh": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"alimtobokea": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"vioo": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"guba''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"alimpa": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"alipie": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"nyumba''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"uyo": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"arif": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"ovyo''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"anapenda": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"sepa": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"daro": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"odijo": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"akimuok": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"kutatee": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"darasani": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"akija": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"atakuadhibu": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"chuom": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"madingo": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"watakuchai": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"kupita": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"wezi": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"wapo": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"watakuibia''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"who'll": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"akanjwe": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"anajiskia": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"skari": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"alipo": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"alianza": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"kuringa''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"became": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"amulia": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"dhenga": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"nijipin": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"ninunulie": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"githeri": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"njaa''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"cheapest": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"unidungie": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"kubonga": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"udingo": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"magidha": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"alichai": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"doo": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"gova''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"kushtakiwa": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"kwake": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"mda": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"yupo": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"serikali''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"amechapa": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"vibanzi": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"alishikwa": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"makarao": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"alikamatwa": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"magondi": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"akaingiza": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"akahisi": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"mbioni": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"mkali": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"walibambwa": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"masanse": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"wakikwaria": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"kuchocha": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"walitiwa": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"kulalamikia": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"kupanda": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"aliniwai": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"nikamchekie": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"kwota": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"mamangu": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"alinipa": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"nikamnunulie": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"kuota": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"alirauka": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"ngware": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"asihate": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"kwenda": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"aliamka": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"asikose": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"kuenda": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"kijijini": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"reflist": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"abdulaziz": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"mohamed": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"osinde": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"language''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"nekesa": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"languages''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"akinloyeojo": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"lioba": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"olaoba": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"arasanyin": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"pemberton": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"harosh": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"tsotsitaal": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"ttingen": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"cuvillier": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"moga": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"nairobi''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"pittsburgh": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"identities''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"speakers'": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"boydell": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"development''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"ethe": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"iraki": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"pragmatics''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"kariuki": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"annah": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"hildah": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"kaviti": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"lillian": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"matatu''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"kie": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"king'ei": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"kitula": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"kobia": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"nchini": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"mazrui": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"alamin": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"oyori": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"ekegusii": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"universit": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"hamburg": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"momanyi": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"of'sheng'in": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"change''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"routledge": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"mutiga": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"jayne": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"lexicalization": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"kenya''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"spyropoulos": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"society''": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"vierke": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+},
+"com": {
+"count": 1,
+"sources": [
+"wikipedia"
+]
+}
+}
