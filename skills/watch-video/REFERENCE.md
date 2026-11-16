@@ -197,4 +197,7 @@ is a little weaker on small or stylised text. `VSENSE_OCR=fast` forces it.
 `models/ggml-swahili-small-q8_0.bin` and `data/sheng/` (rebuild with `scripts/build_sheng.py`). Speaker recognition uses `.venv` (sherpa-onnx, numpy, soundfile) and
 `models/wespeaker_en_voxceleb_resnet34_LM.onnx`; without them it falls back to pitch and timbre. `bin/vsense` (Swift, Apple frameworks) rebuilds itself from
 `scripts/vsense/main.swift` if missing. Work dirs in `~/.cache/watch-video/` hold frames and
-audio; delete a video's folder when you're done if it's large or private.
+audio (about 2.7 MB for a 40-second 720p clip, 47 MB for 5 minutes of 1080p). The folder is kept under
+2 GB: after each scan the least recently used videos are removed first, never one in use in the last
+5 minutes. Set `WATCH_VIDEO_CACHE_MB` to change the cap (0 turns it off). `watch.py cache` lists what is
+stored; `watch.py cache --clear` removes it all. Delete a private video's folder yourself when done.

@@ -8,6 +8,7 @@
   watch.py listen DIR --start S --end E               (speech, sounds, loudness in a range)
   watch.py setup  [--speakers] [--sheng] [--all]       (first run: models and helper)
   watch.py live   screen|camera|<url|file> [--chunk 10] [--for SECONDS]   (watch as it happens)
+  watch.py cache  [--clear]                           (what is stored, and how much; see WATCH_VIDEO_CACHE_MB)
 
 `scan` is peripheral vision (every frame and every 50 ms of audio, as cheap signals) plus a
 first round of attention (contact sheets of the moments that matter). The others are
@@ -26,6 +27,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
+import cache as C  # noqa: E402
 import events as EV  # noqa: E402
 import media  # noqa: E402
 import people as PPL  # noqa: E402
@@ -58,12 +60,26 @@ def load_state(d: Path) -> dict:
     f = Path(d).expanduser() / "state.json"
     if not f.exists():
         raise MediaError(f"no scan in {d}; run `watch.py scan` first")
+    C.touch(f.parent)
     return json.loads(f.read_text())
 
 
 def story_times(info: dict) -> list[float]:
     n = 16 if info["duration"] > 16 else max(4, int(info["duration"]))
     return [round((i + 0.5) * info["duration"] / n, 2) for i in range(n)]
+
+
+def keep_cache_small(keep: Path) -> None:
+    """Hold ~/.cache/watch-video under its cap, oldest videos first; never touches `keep`."""
+    try:
+        removed = C.prune(CACHE, C.cap_bytes(), keep={keep})
+    except OSError as exc:
+        print(f"warning: cache cleanup skipped: {exc}", file=sys.stderr)
+        return
+    if removed:
+        freed = C.human(sum(b for _, b in removed))
+        print(f"cache: removed {len(removed)} older video(s), freed {freed} "
+              f"(cap {C.human(C.cap_bytes())}, set {C.ENV} to change)", file=sys.stderr)
 
 
 def _soft(future, default, what: str):
@@ -213,6 +229,7 @@ def scan(args) -> None:
     (out / "state.json").write_text(json.dumps(state))
     (out / "WATCH.md").write_text(report.watch_md(info, state))
     (out / "BRIEF.md").write_text(report.brief_md(info, state))
+    keep_cache_small(out)
     print(out / "WATCH.md")
     print(out / "BRIEF.md")
 
@@ -327,7 +344,24 @@ def live_cmd(args) -> None:
     import live
     stamp = time.strftime("%Y%m%d-%H%M%S")
     out = Path(args.out).expanduser().resolve() if args.out else CACHE / f"live-{stamp}"
+    keep_cache_small(out)
     live.live(args.source, out, args.chunk, args.seconds, args.budget)
+
+
+def cache_cmd(args) -> None:
+    rows = C.entries(CACHE)
+    if args.clear:
+        removed = C.prune(CACHE, 0)
+        print(f"removed {len(removed)} video(s), freed {C.human(sum(b for _, b in removed))}"
+              + (f"; kept {len(rows) - len(removed)} in use in the last {C.BUSY_SECONDS // 60} min"
+                 if len(rows) > len(removed) else ""))
+        return
+    cap = C.cap_bytes()
+    total = sum(b for _, b, _ in rows)
+    print(f"{CACHE}: {len(rows)} video(s), {C.human(total)} of "
+          + (f"{C.human(cap)} cap" if cap else "no cap") + f" ({C.ENV})")
+    for d, b, used in reversed(rows):
+        print(f"  {time.strftime('%Y-%m-%d %H:%M', time.localtime(used))}  {C.human(b):>9}  {d.name}")
 
 
 def setup_cmd(args) -> None:
@@ -356,11 +390,14 @@ def main() -> int:
     v.add_argument("--budget", type=int, default=2)
     su = sub.add_parser("setup"); su.add_argument("--speakers", action="store_true")
     su.add_argument("--sheng", action="store_true"); su.add_argument("--all", action="store_true")
+    c = sub.add_parser("cache"); c.add_argument("--clear", action="store_true",
+                                                 help="remove every stored video not in use right now")
     a = sub.add_parser("listen"); a.add_argument("dir"); a.add_argument("--start", type=float, required=True)
     a.add_argument("--end", type=float, required=True)
     args = p.parse_args()
     try:
-        {"scan": scan, "look": look, "zoom": zoom, "frame": frame_cmd, "listen": listen, "live": live_cmd, "setup": setup_cmd}[args.cmd](args)
+        {"scan": scan, "look": look, "zoom": zoom, "frame": frame_cmd, "listen": listen, "live": live_cmd, "setup": setup_cmd,
+         "cache": cache_cmd}[args.cmd](args)
     except MediaError as exc:
         print(f"watch-video: {exc}", file=sys.stderr)
         return 1

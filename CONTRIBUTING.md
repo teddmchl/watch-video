@@ -21,7 +21,7 @@ Thanks for helping Claude watch videos. Small, tested changes are the easiest to
 
 ## Rules
 
-- Run `python3 tests/run_tests.py` before a pull request; it must pass.
+- Run `python3 tests/run_tests.py` and `python3 tests/test_cache.py` before a pull request; both must pass.
 - A detection rule must be checked against real frames, not just a synthetic case. Say what you checked.
 - The skill describes people and never identifies them. No face recognition, no guessing gender, age or
   ethnicity. Changes that add these won't be merged.
