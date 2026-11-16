@@ -27,8 +27,10 @@ Everything runs on-device (ffmpeg, whisper.cpp, Apple Vision and SoundAnalysis).
 python3 ~/.claude/skills/watch-video/scripts/watch.py scan "<file or URL>"
 ```
 
-It prints the path to `WATCH.md`. Speed is roughly 10 s for a 1-minute clip, under 2 min for 10 minutes (whisper is
-most of it). For anything over ~10 minutes, run it in the background. Useful flags:
+It prints the path to `WATCH.md`. Measured on an M2 MacBook Air: a 40-second 720p clip takes about 80 s the
+first time, and a 5-minute 1080p clip with people in it about 7 min. Asking again about a video it has already
+scanned reuses the work dir: about 9 s and 1 min for those two. For anything over ~1 minute, run it in the
+background. Useful flags:
 `--budget N` sets the number of attention windows (default 8; raise it for long or busy videos),
 `--lang sw` forces a speech language (default auto), `--no-speech` skips transcription,
 `--out DIR` sets the work dir (default `~/.cache/watch-video/<name>-<hash>`; rescans of the same file reuse it),
